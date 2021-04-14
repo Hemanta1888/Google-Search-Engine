@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advance Search webpage design</title>
+    </head>
+    <style>
+        section{
+            width: 100%;
+            min-height:auto;
+        }
+        section header{
+            border: 2px solid transparent;
+            background-color: rgb(116, 243, 230);
+            outline: none;
+            margin-top: -7px;
+            max-height:5% ;
+            min-width: none;
+        }
+        section header ul{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        section header ul li{
+            float: right;
+            border: 2px solid black;
+            padding: 10px;
+            align-items: center;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        section header ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        section header ul li a:hover{
+            border: 2px solid transparent;
+        }
+        .image{
+            display: flexbox;
+            flex-direction: row;
+            max-width: 280px;
+            margin-top: -10%; 
+        }
+        h4{
+            margin-left: 3%;
+            margin-top: -6px;
+            border-bottom: 1px solid rgb(56, 55, 55);
+            height: 40px;
+            font-size: 24px;
+            font-family: Bell MT;
+            color: rgb(233, 10, 222);
+        }
+        h5{
+            margin: 40px;
+            font-size: 18px;
+            color: rgba(77, 77, 73, 0.692);
+            font-family: Californian FB;
+        }
+        .box{
+            margin:40px;
+            line-height: 30px;
+            color: rgb(73, 70, 70);
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            display: grid;
+            
+            grid-gap: 45px;
+        }
+        .container1{
+            font-size: 18px;
+            margin-left: 22%;
+            margin-top: -18.5%; 
+            font-family: Century Schoolbook; 
+        }
+        .container2{
+            position: absolute;
+            margin-left: 32%;
+            padding: 10px;
+            width: 10%;
+            font-size: 12px;
+            border: 1px solid rgb(13, 161, 206);
+            background-color: rgb(13, 161, 206);
+            color: white;
+            font-family: Century Gothic;
+            cursor: pointer;
+        }
+        .container2:hover{
+            background-color: transparent;
+            border: 2px solid steelblue;
+            color: black;
+            font-size: 15px;
+            font-family: Matura MT Script Capitals;
+        }
+        .information{
+            position:relative;
+            display: block;
+            margin-left: 53%;
+            margin-top: -40%;
+            line-height: 25px;
+            font-size: 12px;
+            color: rgb(110, 117, 96);
+            font-family: Bell MT;
+        }
+
+            
+
+        
+            
+        
+    </style>
+
+
+    <body>
+        <section>
+                <header>
+                    <ul>
+                        <li><a href="Google Image Search.html">Image search</a></li>
+                        <li><a href="Google Search.html">Google search</a></li>
+                    </ul>
+                </header>
+                <a href="https://www.google.com"><img src="Google_New_Year_2021.gif" class="image"></a>
+        </section>
+
+        <h4>Advanced Search</h4>
+        <h5>Find pages with...</h5>
+            <div class="box">
+            <p>all these words:</p>
+            <p>this exact words or phrase:</p>
+            <p>any of these words:</p>
+            <p>none of these words:</p>
+            <p>numbers ranging from:</p>
+            </div>
+             
+            <form action="https://www.google.com/search">
+            <div class="container">
+            <div class="container1"><input type="text" name="q"></div>
+            <div class="container1"><input type="text" name="q"></div>
+            <div class="container1"><input type="text" name="q"></div>
+            <div class="container1"><input type="text" name="q"></div>
+            <div class="container1"><input type="text" name="q"> to <input type="text" name="q"></div>
+            
+            <input type="submit"  value="Advanced search" class="container2">
+            </div>
+            </form>
+
+            <div class="information">
+                <h5>To do this in the search box.</h5>
+                <p>Type the important words: tri-colour rat terrier</p>
+                <p>Put exact words in quotes: "rat terrier"</p>
+                <p>Type OR between all the words you want: miniature OR standard</p>
+                <p>Put a minus sign just before words that you don't want:<br> -rodent, -"Jack Russell"</p>
+                <p>Put two full stops between the numbers and add a unit of measurement: <br> 10..35 kg, $300..$500, 2010..2011</p>
+            </div>
+    </body>
+        

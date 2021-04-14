@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image Search webpage design</title>
+        <style>
+            section{
+                width: 100%;
+                min-height: auto;
+            }
+            section header{
+                border: 2px solid transparent;
+                outline: none;
+                margin-top: -7px;
+                max-height:5% ;
+                min-width: none;
+            }
+            section header ul{
+                list-style-type: none;
+                overflow: hidden;
+            }
+            section header ul li{
+                float: right;
+                border: 2px solid black;
+                padding: 10px;
+                align-items: center;
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            section header ul li a{
+                text-decoration: none;
+                color: black;
+            }
+            section header ul li a:hover{
+                border: 2px solid transparent;
+            }
+            .main{
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+            .google{
+                display: block;
+                margin-top: 4%;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                width: 28%;
+                padding:25px 30px;
+            }
+            .searchbox{
+                position: relative;
+                width: 100%;
+                margin-top: 38px;
+            }
+            .search{
+                display: block;
+                width: 40%;
+                padding: 13px;
+                margin-top: -4%;
+                border-radius: 250px;
+                margin-right: auto;
+                margin-left: auto;
+                border:1px solid #ccc;
+                outline: none;
+                font-size: 18px;
+                font-family: Bell MT;
+            }
+            .search:hover{
+                border: 1px solid rgb(89, 245, 193);
+                transform: translateX(3%);
+                transform: translateY(3%);
+                transform: translateZ(3%);
+            }
+            .icon{
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding: 15px;
+                float: right;
+                margin-right: 29%;
+                margin-top: -4%;
+                cursor: pointer;
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <section>
+            <header>
+                <ul>
+                    <li><a href="Advance Search.html">Advance search</a></li>
+                    <li><a href="Google Search.html">Google search</a></li>
+                </ul>
+            </header>
+        </section>
+
+        <div class="Main">
+            <img class="google" src="Google_Images.png" title="Google images">
+            <form action="https://www.google.com/images">
+                <div class="searchbox">
+                    <input type="text"  placeholder="search.." class="search" title="Search" name="q">
+                    <div class="icon">
+                        <img src="Google icon.png" title="Search by Voice option is not available">
+                        <img src="Search.png">  
+                    </div>      
+                </div>
+            </form>
+        </div>
+
+
+
+    
+    
+        </form>
+    </body>
+</html>
